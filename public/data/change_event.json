@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "1.0",
+  "sceneId": "scene-true-matlab-v1",
+  "source": "preset_demo",
+  "events": [
+    {
+      "id": "remove-demo",
+      "type": "obstacle_remove",
+      "obstacleId": "target-disappear",
+      "position": [
+        6,
+        11.28
+      ],
+      "size": [
+        3.7,
+        3.7,
+        5
+      ],
+      "affectedVBS": [
+        1
+      ],
+      "mockResult": {
+        "hausdorffDistance": 5.6,
+        "threshold": 2,
+        "votes": [
+          true,
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true
+        ],
+        "requiredVotes": 7,
+        "position": [
+          5.075,
+          10.355
+        ]
+      },
+      "footprint": [
+        [
+          6,
+          13.129999999999999
+        ],
+        [
+          7.85,
+          11.28
+        ],
+        [
+          6,
+          9.43
+        ],
+        [
+          4.15,
+          11.28
+        ]
+      ],
+      "fusion": {
+        "source": "preset_vbs_estimates",
+        "center": [
+          15.430000000000001,
+          11.430000000000001
+        ],
+        "altitude": 1.5,
+        "radius": 2.4,
+        "userResults": [
+          {
+            "sampleId": "p1",
+            "color": "#69a6ff",
+            "points": [
+              [
+                13.63,
+                12.13
+              ],
+              [
+                14.330000000000002,
+                11.13
+              ],
+              [
+                14.63,
+                12.830000000000002
+              ]
+            ]
+          },
+          {
+            "sampleId": "p2",
+            "color": "#e5bb78",
+            "points": [
+              [
+                17.03,
+                12.030000000000001
+              ],
+              [
+                16.630000000000003,
+                10.430000000000001
+              ],
+              [
+                16.03,
+                12.730000000000002
+              ]
+            ]
+          },
+          {
+            "sampleId": "p3",
+            "color": "#b998ff",
+            "points": [
+              [
+                14.930000000000001,
+                9.63
+              ],
+              [
+                16.330000000000002,
+                10.930000000000001
+              ],
+              [
+                15.330000000000002,
+                11.030000000000001
+              ]
+            ]
+          }
+        ]
+      },
+      "reflection": {
+        "baseStation": [
+          4,
+          0,
+          1.5
+        ],
+        "virtualBaseStation": [
+          15.430000000000001,
+          11.430000000000001,
+          1.5
+        ],
+        "face": {
+          "a": [
+            4.15,
+            11.28
+          ],
+          "b": [
+            6,
+            9.43
+          ],
+          "height": 5
+        },
+        "normal": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "foot": [
+          9.715,
+          5.715000000000001,
+          1.5
+        ],
+        "rp": [
+          5.075,
+          10.355,
+          1.5
+        ],
+        "guideA": [
+          2.7357864376269054,
+          12.694213562373095
+        ],
+        "guideB": [
+          11.129213562373096,
+          4.300786437626905
+        ]
+      }
+    },
+    {
+      "id": "add-demo",
+      "type": "obstacle_add",
+      "obstacleId": "target-appear",
+      "position": [
+        -0.4,
+        0
+      ],
+      "size": [
+        2.8,
+        1.6,
+        5.2
+      ],
+      "affectedVBS": [
+        2
+      ],
+      "mockResult": {
+        "hausdorffDistance": 4.2,
+        "threshold": 2,
+        "votes": [
+          true,
+          false,
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          true,
+          true
+        ],
+        "requiredVotes": 7,
+        "position": [
+          0.9999999999999999,
+          0.0
+        ]
+      },
+      "fusion": {
+        "source": "preset_vbs_estimates",
+        "center": [
+          -2.0,
+          0.0
+        ],
+        "altitude": 1.5,
+        "radius": 2.4,
+        "userResults": [
+          {
+            "sampleId": "p1",
+            "color": "#69a6ff",
+            "points": [
+              [
+                -3.8,
+                0.7
+              ],
+              [
+                -3.1,
+                -0.3
+              ],
+              [
+                -2.8,
+                1.4
+              ]
+            ]
+          },
+          {
+            "sampleId": "p2",
+            "color": "#e5bb78",
+            "points": [
+              [
+                -0.3999999999999999,
+                0.6
+              ],
+              [
+                -0.8,
+                -1.0
+              ],
+              [
+                -1.4,
+                1.3
+              ]
+            ]
+          },
+          {
+            "sampleId": "p3",
+            "color": "#b998ff",
+            "points": [
+              [
+                -2.5,
+                -1.8
+              ],
+              [
+                -1.1,
+                -0.5
+              ],
+              [
+                -2.1,
+                -0.4
+              ]
+            ]
+          }
+        ]
+      },
+      "reflection": {
+        "baseStation": [
+          4,
+          0,
+          1.5
+        ],
+        "virtualBaseStation": [
+          -2.0,
+          0.0,
+          1.5
+        ],
+        "face": {
+          "a": [
+            0.9999999999999999,
+            -0.8
+          ],
+          "b": [
+            0.9999999999999999,
+            0.8
+          ],
+          "height": 5.2
+        },
+        "normal": [
+          -1.0,
+          0.0
+        ],
+        "foot": [
+          1.0,
+          0.0,
+          1.5
+        ],
+        "rp": [
+          0.9999999999999999,
+          0.0,
+          1.5
+        ],
+        "guideA": [
+          0.9999999999999999,
+          -2.8
+        ],
+        "guideB": [
+          0.9999999999999999,
+          2.8
+        ]
+      }
+    }
+  ],
+  "units": "matlab_display",
+  "note": "Exact BS mirror across a selected real target face. VBS clouds are preset, not measured. Face reconstruction is a scripted visualization, no optimization solver. RP is a face reference point, not the BS–VBS midpoint or a per-user optimized RP."
+}

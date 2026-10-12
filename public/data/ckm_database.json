@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.0",
+  "sceneId": "scene-true-matlab-v1",
+  "source": "preset_demo",
+  "pathType": "single_reflection",
+  "samples": [
+    {
+      "id": "p1",
+      "name": "位置 A",
+      "position": [
+        -8,
+        -10
+      ],
+      "vbs": [
+        {
+          "id": 1,
+          "position": [
+            15.430000000000001,
+            11.430000000000001
+          ]
+        },
+        {
+          "id": 2,
+          "position": [
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "id": 3,
+          "position": [
+            4,
+            -18.472842529941886
+          ]
+        }
+      ],
+      "paths": [
+        {
+          "id": "building-reflection",
+          "kind": "stable",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              -0.37232361664547176,
+              -9.236421264970943
+            ],
+            [
+              -8,
+              -10
+            ]
+          ],
+          "vbsId": 3
+        },
+        {
+          "id": "disappear-reflection",
+          "kind": "remove",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              5.075,
+              10.355
+            ],
+            [
+              -8,
+              -10
+            ]
+          ],
+          "vbsId": 1
+        },
+        {
+          "id": "appear-reflection",
+          "kind": "add",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              -8,
+              -10
+            ]
+          ],
+          "vbsId": 2
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "位置 B",
+      "position": [
+        12,
+        -9
+      ],
+      "vbs": [
+        {
+          "id": 1,
+          "position": [
+            15.430000000000001,
+            11.430000000000001
+          ]
+        },
+        {
+          "id": 2,
+          "position": [
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "id": 3,
+          "position": [
+            4,
+            -18.472842529941886
+          ]
+        }
+      ],
+      "paths": [
+        {
+          "id": "building-reflection",
+          "kind": "stable",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              -0.37232361664547176,
+              -9.236421264970943
+            ],
+            [
+              12,
+              -9
+            ]
+          ],
+          "vbsId": 3
+        },
+        {
+          "id": "disappear-reflection",
+          "kind": "remove",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              5.075,
+              10.355
+            ],
+            [
+              12,
+              -9
+            ]
+          ],
+          "vbsId": 1
+        },
+        {
+          "id": "appear-reflection",
+          "kind": "add",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              12,
+              -9
+            ]
+          ],
+          "vbsId": 2
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "位置 C",
+      "position": [
+        -10,
+        10
+      ],
+      "vbs": [
+        {
+          "id": 1,
+          "position": [
+            15.430000000000001,
+            11.430000000000001
+          ]
+        },
+        {
+          "id": 2,
+          "position": [
+            -2.0,
+            0.0
+          ]
+        },
+        {
+          "id": 3,
+          "position": [
+            4,
+            -18.472842529941886
+          ]
+        }
+      ],
+      "paths": [
+        {
+          "id": "building-reflection",
+          "kind": "stable",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              -0.37232361664547176,
+              -9.236421264970943
+            ],
+            [
+              -10,
+              10
+            ]
+          ],
+          "vbsId": 3
+        },
+        {
+          "id": "disappear-reflection",
+          "kind": "remove",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              5.075,
+              10.355
+            ],
+            [
+              -10,
+              10
+            ]
+          ],
+          "vbsId": 1
+        },
+        {
+          "id": "appear-reflection",
+          "kind": "add",
+          "points": [
+            [
+              4,
+              0
+            ],
+            [
+              0.9999999999999999,
+              0.0
+            ],
+            [
+              -10,
+              10
+            ]
+          ],
+          "vbsId": 2
+        }
+      ]
+    }
+  ],
+  "units": "matlab_display",
+  "note": "VBS locations for changed faces match the mirror demo. Path polylines and channel values remain illustrative, not ray-traced or measured; the face RP marker is a reference point, not an optimized per-user reflection point."
+}
